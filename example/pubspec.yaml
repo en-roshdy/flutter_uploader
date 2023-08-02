@@ -1,0 +1,23 @@
+name: flutter_uploader_example
+version: 1.2.0
+description: Demonstrates how to use the flutter_uploader plugin.
+publish_to: "none"
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^1.4.0
+  image_picker: ^0.6.1+8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_uploader:
+    path: ../
+
+flutter:
+  uses-material-design: true
